@@ -1,0 +1,16 @@
+yarn add react-test-renderer enzyme enzyme-adapter-react-16 enzyme-to-json --dev
+
+
+react-test-renderer:
+--------------------
+This package provides an experimental React renderer that can be used to render 
+React components to pure JavaScript objects, without depending on the DOM or a native mobile environment.
+
+Essentially, this package makes it easy to grab a snapshot of the "DOM tree" rendered by a React DOM 
+or React Native component without using a browser or jsdom.
+
+
+enzyme-to-json:
+--------------
+Convert Enzyme wrappers to a format compatible with Jest snapshot testing.
+
